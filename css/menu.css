@@ -1,0 +1,35 @@
+.img1{
+    width:40%;
+    margin-left:16%;
+    margin-right:19%;
+    opacity: 0.5;  
+    
+}
+body{
+    margin: 0%;
+    background-image: url('bgimage.jpg');
+}
+.menu{
+    margin-left:30%;
+    margin-right: 40%;
+}
+.menu ul{
+margin: 0%;
+background-color: black;
+list-style: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color:lightskyblue;
+}
+.form-group{
+    color:white;
+}
