@@ -1,12 +1,13 @@
 
 body{
-    background-image: url('bgmadeira1.png');
+    background-color: azure;
     
 }
 .menu{
     margin-left:30%;
     margin-right: 40%; 
 }
+
 .menu ul{
 margin: 0%;
 background-color: black;
@@ -20,45 +21,17 @@ list-style: none;
     display: inline-flex;
     color:white;
     text-decoration: none;
+    
 }
 .menu ul li a:hover{
-    color:lightskyblue;
-}
-.container img {
-    max-width: 300px;
-    width: auto;
-    border: 4px solid white;
-    position: absolute;
-}
-.container2 img {
-    max-width: 300px;
-    max-height: 250px;
-    width: 350px;
-    height: auto;
-    border: 4px solid white;
-    display:inline-block;
-    margin-left: 70%;
-}
-.container3 img {
-    max-width: 300px;
-    width: auto;
-    border: 4px solid white;
-    position: absolute;
-    margin-left: 14%;
-}
-.container4 img {
-    max-width: 300px;
-    max-height: 250px;
-    width: 350px;
-    height: auto;
-    border: 4px solid white;
-    display:inline-block;
-    margin-left: 70%;
+    color: lightgreen;
+    background-color: grey;
+    transition: background-color 1s;
 }
 h1{
     font-size: 60px;
-    margin-left: 120px;
-    color:white;
+    margin-left: 215px;
+    color:black;
 }
 .bgimage{
     width:57%;
