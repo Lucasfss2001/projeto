@@ -1,7 +1,7 @@
 
 body{
-    background-color: azure;
-    
+    background-color: lightgray;
+
 }
 .menu{
     margin-left:30%;
@@ -40,6 +40,9 @@ h1{
     margin-left: auto;
     margin-right: auto;
     display:block;
+}
+.anuncio{
+    font-size: 30px;
 }
 
 
