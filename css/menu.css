@@ -13,8 +13,8 @@ body{
     background-color: azure;
 }
 .menu{
-    margin-left:30%;
-    margin-right: 40%;
+    display: flexbox;
+
 }
 .menu ul{
 margin: 0%;
@@ -36,5 +36,13 @@ list-style: none;
     transition: background-color 1s;
 }
 .form-group{
-    color:black;
+    color:white;
+}
+.hamburguer{
+    display:none;
+}
+@media only screen and (max-width: 600px){
+    .hamburguer{
+        display:inline-block;
+    }
 }

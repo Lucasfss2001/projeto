@@ -4,8 +4,7 @@ body{
 
 }
 .menu{
-    margin-left:30%;
-    margin-right: 46%; 
+    display: flexbox;
 }
 
 .menu ul{
@@ -34,6 +33,8 @@ h1{
     font-size: 60px;
     margin-left: 300px;
     color:black;
+    margin-right: 475px;
+    
 }
 .bgimage{
     width:57%;
@@ -43,6 +44,14 @@ h1{
 }
 .anuncio{
     font-size: 30px;
+}
+.hamburguer{
+    display:none;
+}
+@media only screen and (max-width: 600px){
+    .hamburguer{
+        display:inline-block;
+    }
 }
 
 
