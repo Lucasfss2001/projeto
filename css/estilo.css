@@ -1,6 +1,6 @@
 
 body{
-    background-color: lightgray;
+    background-color: beige;
 
 }
 .menu{
@@ -31,10 +31,14 @@ list-style: none;
 }
 h1{
     font-size: 60px;
-    margin-left: 300px;
+    text-align: center;
     color:black;
-    margin-right: 475px;
-    
+    background-color: wheat;
+}
+#carouselSite{
+    width:50%;
+    height: auto;
+    margin-left: 26%;
 }
 .bgimage{
     width:50%;
@@ -54,6 +58,10 @@ h1{
 #carouselExampleControls{
     margin-left: 23%;
     margin-right: 15%;
+}
+h3{
+    text-align: center;
+
 }
 
 
