@@ -1,11 +1,11 @@
 body{
-    background-image: url("bgimage.jpg");
+   background-color: white;
 }
 .img1{
     width:40%;
-    margin-left:16%;
+    margin-left:20%;
     margin-right:19%;
-    opacity: 0.5;  
+    opacity: 0.8;  
     
 }
 body{
@@ -36,7 +36,7 @@ list-style: none;
     transition: background-color 1s;
 }
 .form-group{
-    color:white;
+    color:black;
 }
 .hamburguer{
     display:none;
