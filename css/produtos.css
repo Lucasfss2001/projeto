@@ -1,6 +1,5 @@
 body{
-    background-color: azure;
-    background-image: url("bgmadeira1.png");
+    background-color: white;
 }
 .menu{
     display: flexbox;
